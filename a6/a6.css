@@ -1,0 +1,58 @@
+.container { 
+    max-width: 960px; 
+    margin: 0 auto;
+    background-color: #a77195;
+    }
+section {
+    padding: 20px;
+    background-color: white;
+}
+body {
+    background-image: url(pictures/CBbackground.jpg);
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;  
+    color: #000000; 
+    line-height: 1.7em; 
+    font-style: normal;  
+}
+.columnTwo { 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */ 
+    -moz-column-count: 2; /* Firefox */ 
+    column-count: 2; 
+    } 
+     
+    .columnThree { 
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */ 
+    -moz-column-count: 3; /* Firefox */ 
+    column-count: 3; 
+    }
+.floatLeft { 
+    float: left; 
+    border: 3px solid #990091; 
+    }
+.floatRight { 
+    float: right; 
+    border: 3px solid #990091; 
+    }
+header {
+    background-color: #db55d5;
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;  
+    color: #000000; 
+    line-height: 2em; 
+    font-style: normal;
+    text-align: center;
+}
+footer {
+    clear:both;
+    background-color: #db55d5;    
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;  
+    color: #000000; 
+    line-height: 2em; 
+    font-style: normal;
+    text-align: center;   
+}
+header, footer, nav, article { 
+    display: block; 
+   } 
