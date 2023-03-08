@@ -1,0 +1,65 @@
+.container { 
+    max-width: 800px; 
+    margin: auto;
+    background-color: #181c52; 
+    border: thin solid #777777;   
+    }
+
+body { 
+    background-image: url(gallery_images/background.jpg); 
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;  
+    color: #ffffff; 
+    line-height: 1.8em; 
+    font-style: normal; 
+    }
+
+section { 
+    padding: 20px; 
+    }
+    .heading { 
+    font-size: 64px; 
+    color: #b1297d;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */ 
+    -moz-column-count: 2; /* Firefox */ 
+    column-count: 2;  
+    }
+a:link { 
+    color: rgb(89, 0, 255); 
+    } 
+a:visited { 
+    color: rgb(0, 0, 255); 
+    } 
+a:hover { 
+    color: rgb(194, 10, 194); 
+    } 
+a:active { 
+    color: rgb(204, 26, 136); 
+    }
+    
+nav {  
+    font-size: 25px; 
+    word-spacing: 25px; 
+    letter-spacing: 8px; 
+    }
+.boxmodel { 
+    border: 8px solid purple; 
+        margin: 30px; 
+    }
+.floatLeft { 
+    float: left; 
+    border: 3px solid #06022b;
+    margin-right: 10px;   
+    margin-bottom: 5px;  
+    }
+.floatRight { 
+    float: right; 
+    border: 3px solid #06022b;
+    margin-left: 10px;   
+    margin-bottom: 5px;   
+    }
+.columnTwo { 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */ 
+    -moz-column-count: 2; /* Firefox */ 
+    column-count: 2; 
+    }
